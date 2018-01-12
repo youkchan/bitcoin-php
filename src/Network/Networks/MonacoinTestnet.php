@@ -13,7 +13,7 @@ class MonacoinTestnet extends Network
      */
     protected $base58PrefixMap = [
         self::BASE58_ADDRESS_P2PKH => "6f",
-        self::BASE58_ADDRESS_P2SH => "c4",
+        self::BASE58_ADDRESS_P2SH => "75",
         self::BASE58_WIF => "ef",
     ];
 
@@ -47,11 +47,11 @@ class MonacoinTestnet extends Network
      * {@inheritdoc}
      * @see Network::$signedMessagePrefix
      */
-    protected $signedMessagePrefix = "Bitcoin Signed Message";
+    protected $signedMessagePrefix = "Monacoin Signed Message";
 
     /**
      * {@inheritdoc}
      * @see Network::$p2pMagic
      */
-    protected $p2pMagic = "0709110b";
+    protected $p2pMagic = "f1c8d2fd";
 }

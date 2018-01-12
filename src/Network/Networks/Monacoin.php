@@ -12,9 +12,9 @@ class Monacoin extends Network
      * @see Network::$base58PrefixMap
      */
     protected $base58PrefixMap = [
-        self::BASE58_ADDRESS_P2PKH => "00",
-        self::BASE58_ADDRESS_P2SH => "05",
-        self::BASE58_WIF => "80",
+        self::BASE58_ADDRESS_P2PKH => "32",
+        self::BASE58_ADDRESS_P2SH => "37",
+        self::BASE58_WIF => "b0",
     ];
 
     /**
@@ -47,11 +47,11 @@ class Monacoin extends Network
      * {@inheritdoc}
      * @see Network::$signedMessagePrefix
      */
-    protected $signedMessagePrefix = "Bitcoin Signed Message";
+    protected $signedMessagePrefix = "Monacoin Signed Message";
 
     /**
      * {@inheritdoc}
      * @see Network::$p2pMagic
      */
-    protected $p2pMagic = "d9b4bef9";
+    protected $p2pMagic = "dbb6c0fb";
 }
