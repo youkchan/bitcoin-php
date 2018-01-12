@@ -16,6 +16,8 @@ use BitWasp\Bitcoin\Network\Networks\Litecoin;
 use BitWasp\Bitcoin\Network\Networks\LitecoinTestnet;
 use BitWasp\Bitcoin\Network\Networks\Viacoin;
 use BitWasp\Bitcoin\Network\Networks\ViacoinTestnet;
+use BitWasp\Bitcoin\Network\Networks\Monacoin;
+use BitWasp\Bitcoin\Network\Networks\MonacoinTestnet;
 use BitWasp\Bitcoin\Tests\AbstractTestCase;
 
 class NetworkFactoryTest extends AbstractTestCase
@@ -34,6 +36,9 @@ class NetworkFactoryTest extends AbstractTestCase
             ['litecoinTestnet', LitecoinTestnet::class],
             ['viacoin', Viacoin::class],
             ['viacoinTestnet', ViacoinTestnet::class],
+            ['monacoin', Monacoin::class],
+            ['monacoinTestnet', MonacoinTestnet::class],
+
         ];
     }
 
