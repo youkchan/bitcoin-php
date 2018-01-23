@@ -1,5 +1,5 @@
 {
-  "name": "youkchan/monacoin-php",
+  "name": "youkchan/monacoin",
   "description": "PHP Monacoin library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
   "type": "library",
   "homepage": "https://github.com/youkchan/monacoin-php",
