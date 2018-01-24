@@ -22,7 +22,7 @@ class Monacoin extends Network
      * @see Network::$bech32PrefixMap
      */
     protected $bech32PrefixMap = [
-        self::BECH32_PREFIX_SEGWIT => "bc",
+        self::BECH32_PREFIX_SEGWIT => "mona",
     ];
 
     /**

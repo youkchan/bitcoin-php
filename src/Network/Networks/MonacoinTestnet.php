@@ -22,7 +22,7 @@ class MonacoinTestnet extends Network
      * @see Network::$bech32PrefixMap
      */
     protected $bech32PrefixMap = [
-        self::BECH32_PREFIX_SEGWIT => "tb",
+        self::BECH32_PREFIX_SEGWIT => "tmona",
     ];
 
     /**
